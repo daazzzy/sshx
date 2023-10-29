@@ -1,4 +1,4 @@
 # sshx
-script to install gs-netcat and transmit info to my discord channel
+repo for wget/curl 
 
 All credits to https://github.com/hackerschoice/ssh-key-backdoor
